@@ -1,0 +1,44 @@
+{
+  "name": "hw-create-cli",
+  "version": "1.0.1",
+  "description": "前端工程脚手架",
+  "main": "./cli/index.js",
+  "bin": {
+    "jdy-sme-cli": "./cli/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://xxx.xxx.xxx/v3/create-cli.git"
+  },
+  "publishConfig": {
+    "registry": "http://xxx.xxx.xxx/repository",
+    "access": "public"
+  },
+  "tnpm": {
+    "mode": "npm"
+  },
+  "files": [
+    "cli",
+    "templates"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.12",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.22",
+    "log-symbols": "^6.0.0",
+    "ora": "^8.0.1",
+    "shelljs": "^0.8.5",
+    "table": "^6.8.2"
+  }
+}
